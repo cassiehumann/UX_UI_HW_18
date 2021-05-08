@@ -1,0 +1,241 @@
+@import url("https://use.typekit.net/mjz8dkb.css");
+/*Colors*/
+/*--*/
+body {
+  font-size: 16px;
+  font-family: commuters-sans, sans-serif;
+  background-color: #FFFCF4;
+}
+h1 {
+    font-size: 121px;
+  }
+  
+  h2 {
+    font-size: 81px;
+  }
+  
+  h3 {
+    font-size: 54px;
+  }
+  
+  h4 {
+    font-size: 36px;
+  }
+  
+  h5 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  /*
+   Commuters Sans Italic
+  
+      font-family: commuters-sans, sans-serif;
+  
+      font-weight: 400;
+  
+      font-style: italic;
+  
+  Commuters Sans Regular
+  
+      font-family: commuters-sans, sans-serif;
+  
+      font-weight: 400;
+  
+      font-style: normal;
+  
+  Commuters Sans Bold Italic
+  
+      font-family: commuters-sans, sans-serif;
+  
+      font-weight: 700;
+  
+      font-style: italic;
+  
+  Commuters Sans Bold
+  
+      font-family: commuters-sans, sans-serif;
+  
+      font-weight: 700;
+  
+      font-style: normal;
+  
+  */
+  a {
+    color: #FFFCF4;
+    text-decoration: none;
+  }
+
+  .rectangle-31 {
+    background-color: #f7f0e2;
+    border-radius: 30px;
+    height: 532px;
+    mix-blend-mode: normal;
+    width: 350px;
+  }
+  
+  .title {
+    color: #fffcf4;
+    font-family: var(--font-family-majesty-display);
+    font-size: var(--font-size-m);
+    letter-spacing: 0;
+    min-height: 45px;
+    mix-blend-mode: normal;
+    width: 299px;
+  }
+  
+  
+  nav, .hero, .section, footer {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  
+  nav {
+    background-color: #3D3D3D;
+    color: #FFFCF4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  nav hr {
+    border: 2px solid #FFFCF4;
+    width: 38px;
+    margin-right: 1em;
+  }
+  
+  nav .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  nav .logo p {
+    font-size: 48px;
+  }
+  
+  nav .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20%;
+    font-size: 20px;
+    font-family: commuters-sans, sans-serif;
+    font-weight: 200;
+  }
+  footer {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #3D3D3D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  
+  footer p {
+    color: #fffcf491;
+  }
+  
+  footer .socialmedia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  footer .socialmedia li {
+    margin-right: 1em;
+  }
+  
+  footer .socialmedia a {
+    font-size: 2em;
+    color: #FFFCF4;
+  }
+
+  .span1 {
+    color: var(--masala);
+    font-family: var(--font-family-commuters_sans-light);
+    font-size: var(--font-size-s);
+    font-weight: 300;
+  }
+  .text-1 {
+    letter-spacing: 0;
+    min-height: 508px;
+    min-width: 647px;
+    mix-blend-mode: normal;
+    width: 647px;
+  }
+  
+  @media (max-width: 900px) {
+    nav, .hero, .section, footer {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    nav .links {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    footer {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 2em 0em;
+      }
+      footer .socialmedia {
+        width: 50%;
+        margin-top: 1em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      footer .socialmedia li {
+        margin: 0;
+      }
+    }
